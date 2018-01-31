@@ -10,11 +10,20 @@ function forLoop(array) {
   for (let i = 0; i < 25; i++) {
     if (i === 1) {
       array.push('I am 1 strange loop.')
+<<<<<<< HEAD
     } else {
       array.push(`I am ${i} strange loop${i === 0 ? '' : 's'}.`)
     }
   }
   return array
+=======
+      console.log(array)
+    } else {
+      array.push(`I am ${i} strange loop${i === 0 ? '' : 's'}.`)
+      console.log(array)
+    }
+  }
+>>>>>>> 6f40e544e0e7b3ab5ccc27c7805d060237b7bac0
 }
 
 function doWhileLoop(array) {
